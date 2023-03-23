@@ -1,0 +1,47 @@
+p {
+    color: lavender;
+}
+
+h3 {
+    color: aqua;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+h5 {
+    color: cornflowerblue;
+}
+
+h6 {
+    text-decoration: underline;
+}
+
+.likelion {
+    color: yellow;
+}
+
+.likelion2 {
+    color: red;
+}
+
+#korea {
+    color: blueviolet;
+}
+
+.korea {
+    color: crimson;
+}
+
+p.korea {
+    color: blue;
+}
+
+p.korea.sejong {
+    color: green;
+}
+
+#sejong {
+    color: brown;
+}
