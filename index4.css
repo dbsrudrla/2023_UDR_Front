@@ -1,0 +1,42 @@
+.outer li {
+    color: lightcoral;
+}
+
+.outer > li {
+    color: lightblue;
+}
+
+/* 하나 밑 li들은 적용이 안됨, 그 밑 li에 적용됨 */
+.outer > li li {
+    text-decoration: underline;
+}
+
+.starter ~ li {
+    color: lightskyblue;
+}
+
+.starter + li {
+    font-weight: bold;
+}
+
+ol li:first-child,
+ol li:last-child {
+    font-style: italic;
+}
+
+.outer > li:not(:last-child) {
+    text-decoration: line-through;
+}
+
+ul:not(.outer) > li {
+    font-size: 25px;
+}
+
+ol li:nth-child(3) {
+    color: hotpink;
+}
+
+li:hover {
+    font-weight: bold;
+    color: blueviolet;
+}

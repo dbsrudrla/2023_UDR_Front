@@ -1,0 +1,41 @@
+ol {
+    color: red;
+}
+
+ul {
+    color: blue;
+}
+
+/* span {
+    background-color: lightcoral;
+    color: white;
+} */
+
+div {
+    background-color: pink;
+    color: beige;
+}
+
+/* div {
+    background-color: pink;
+    color: beige;
+    display: inline;
+} */
+
+span {
+    background-color: #8fc49d;
+    color: white;
+    display: block;
+}
+
+/* span {
+    background-color: lightcoral;
+    color: white;
+    display: inline-block;
+} */
+
+/* div {
+     background-color: pink;
+    color: beige;
+    display: inline-block;
+} */
